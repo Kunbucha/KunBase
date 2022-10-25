@@ -12,7 +12,7 @@ test:package
 
 coverage:test
 	@mvn clean verify -Ptest
-	@open cp-ddd-test/target/site/jacoco-aggregate/index.html
+	@open kunbase-test/target/site/jacoco-aggregate/index.html
 
 javadoc:install
 	@mvn javadoc:javadoc
